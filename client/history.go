@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/taigrr/elevenlabs/client/types"
+	"github.com/Romerito007/elevenlabs/client/types"
 )
 
 func (c Client) HistoryDelete(ctx context.Context, historyItemID string) (bool, error) {

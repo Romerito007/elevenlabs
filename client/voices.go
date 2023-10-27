@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/taigrr/elevenlabs/client/types"
+	"github.com/Romerito007/elevenlabs/client/types"
 )
 
 func (c Client) CreateVoice(ctx context.Context, name, description string, labels []string, files []*os.File) error {

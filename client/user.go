@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/taigrr/elevenlabs/client/types"
+	"github.com/Romerito007/elevenlabs/client/types"
 )
 
 func (c Client) GetUserInfo(ctx context.Context) (types.UserResponseModel, error) {

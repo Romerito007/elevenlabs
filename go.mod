@@ -1,3 +1,3 @@
-module github.com/taigrr/elevenlabs
+module github.com/Romerito007/elevenlabs
 
 go 1.20

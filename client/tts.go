@@ -9,7 +9,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/taigrr/elevenlabs/client/types"
+	"github.com/Romerito007/elevenlabs/client/types"
 )
 
 func (c Client) TTSWriter(ctx context.Context, w io.Writer, text, modelID, voiceID string, options types.SynthesisOptions) error {

@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/taigrr/elevenlabs/client/types"
+	"github.com/Romerito007/elevenlabs/client/types"
 )
 
 func (c Client) DeleteVoiceSample(ctx context.Context, voiceID, sampleID string) (bool, error) {
